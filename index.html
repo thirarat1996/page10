@@ -146,7 +146,7 @@ function myMap()
     zoom:12, scrollwheel: false, draggable: false,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+  var map=new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
 
   var marker = new google.maps.Marker({
     position: myCenter,
